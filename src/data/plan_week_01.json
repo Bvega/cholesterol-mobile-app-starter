@@ -1,0 +1,128 @@
+{
+  "weekId": "cholesterol-week-01",
+  "title": "Plan Semanal para Bajar el Colesterol",
+  "patientProfile": {
+    "sex": "female",
+    "age": 72,
+    "weightLb": 167,
+    "weightKg": 76
+  },
+  "createdDate": "2025-10-09",
+  "kcalTarget": { "min": 1500, "max": 1600 },
+  "days": [
+    {
+      "dayId": "mon",
+      "dayName": "Lunes",
+      "meals": {
+        "breakfast": { "mealId": "mon-breakfast", "title": "Desayuno", "description": "Avena con manzana y linaza." },
+        "lunch": { "mealId": "mon-lunch", "title": "Comida", "description": "Salmón al horno con quinoa y ensalada." },
+        "dinner": { "mealId": "mon-dinner", "title": "Cena", "description": "Sopa de verduras y tostada integral." }
+      },
+      "tips": []
+    },
+    {
+      "dayId": "tue",
+      "dayName": "Martes",
+      "meals": {
+        "breakfast": { "mealId": "tue-breakfast", "title": "Desayuno", "description": "Yogur natural con frutas." },
+        "lunch": { "mealId": "tue-lunch", "title": "Comida", "description": "Pechuga de pollo con puré de calabaza." },
+        "dinner": { "mealId": "tue-dinner", "title": "Cena", "description": "Omelette de espinaca con pan integral." }
+      },
+      "tips": []
+    },
+    {
+      "dayId": "wed",
+      "dayName": "Miércoles",
+      "meals": {
+        "breakfast": { "mealId": "wed-breakfast", "title": "Desayuno", "description": "Smoothie de plátano, espinaca y linaza." },
+        "lunch": { "mealId": "wed-lunch", "title": "Comida", "description": "Lentejas guisadas con verduras." },
+        "dinner": { "mealId": "wed-dinner", "title": "Cena", "description": "Pescado blanco con papa asada." }
+      },
+      "tips": []
+    },
+    {
+      "dayId": "thu",
+      "dayName": "Jueves",
+      "meals": {
+        "breakfast": { "mealId": "thu-breakfast", "title": "Desayuno", "description": "Galletas integrales con queso fresco." },
+        "lunch": { "mealId": "thu-lunch", "title": "Comida", "description": "Tacos de pescado con repollo." },
+        "dinner": { "mealId": "thu-dinner", "title": "Cena", "description": "Crema de zanahoria y manzana asada." }
+      },
+      "tips": []
+    },
+    {
+      "dayId": "fri",
+      "dayName": "Viernes",
+      "meals": {
+        "breakfast": { "mealId": "fri-breakfast", "title": "Desayuno", "description": "Avena con frutos rojos." },
+        "lunch": { "mealId": "fri-lunch", "title": "Comida", "description": "Pechuga de pavo con arroz integral." },
+        "dinner": { "mealId": "fri-dinner", "title": "Cena", "description": "Ensalada tibia con garbanzos y espinaca." }
+      },
+      "tips": []
+    },
+    {
+      "dayId": "sat",
+      "dayName": "Sábado",
+      "meals": {
+        "breakfast": { "mealId": "sat-breakfast", "title": "Desayuno", "description": "Pan integral con aguacate y huevo." },
+        "lunch": { "mealId": "sat-lunch", "title": "Comida", "description": "Sardinas con papa hervida." },
+        "dinner": { "mealId": "sat-dinner", "title": "Cena", "description": "Crema de lentejas con tostada." }
+      },
+      "tips": []
+    },
+    {
+      "dayId": "sun",
+      "dayName": "Domingo",
+      "meals": {
+        "breakfast": { "mealId": "sun-breakfast", "title": "Desayuno", "description": "Smoothie de avena, leche vegetal y manzana." },
+        "lunch": { "mealId": "sun-lunch", "title": "Comida", "description": "Pasta integral con salsa casera." },
+        "dinner": { "mealId": "sun-dinner", "title": "Cena", "description": "Tortilla de espinacas y pan integral." }
+      },
+      "tips": []
+    }
+  ],
+  "additionalTips": [
+    "Usa aceite de oliva extra virgen como grasa principal.",
+    "Evita frituras, embutidos y productos ultraprocesados.",
+    "Consume pescado 2-3 veces por semana.",
+    "Reduce el consumo de sal y azúcar refinada.",
+    "Bebe 2 litros de agua al día.",
+    "Realiza caminatas o ejercicios suaves 30-40 minutos diarios."
+  ],
+  "ingredientsCatalog": [
+    { "ingredientId": "oats", "name": "Avena", "category": "Cereales/Integrales" },
+    { "ingredientId": "apple", "name": "Manzana", "category": "Frutas" },
+    { "ingredientId": "flaxseed", "name": "Linaza", "category": "Otros" },
+    { "ingredientId": "salmon", "name": "Salmón", "category": "Proteínas" },
+    { "ingredientId": "quinoa", "name": "Quinoa", "category": "Cereales/Integrales" },
+    { "ingredientId": "salad", "name": "Ensalada (mix verduras)", "category": "Verduras" },
+    { "ingredientId": "vegetable_soup", "name": "Sopa de verduras", "category": "Verduras" },
+    { "ingredientId": "whole_toast", "name": "Tostada integral", "category": "Cereales/Integrales" },
+    { "ingredientId": "yogurt", "name": "Yogur natural", "category": "Lácteos" },
+    { "ingredientId": "fruit_mix", "name": "Frutas (mix)", "category": "Frutas" },
+    { "ingredientId": "chicken_breast", "name": "Pechuga de pollo", "category": "Proteínas" },
+    { "ingredientId": "pumpkin", "name": "Calabaza", "category": "Verduras" },
+    { "ingredientId": "spinach", "name": "Espinaca", "category": "Verduras" },
+    { "ingredientId": "whole_bread", "name": "Pan integral", "category": "Cereales/Integrales" },
+    { "ingredientId": "banana", "name": "Plátano", "category": "Frutas" },
+    { "ingredientId": "lentils", "name": "Lentejas", "category": "Proteínas" },
+    { "ingredientId": "white_fish", "name": "Pescado blanco", "category": "Proteínas" },
+    { "ingredientId": "potato", "name": "Papa", "category": "Verduras" },
+    { "ingredientId": "whole_crackers", "name": "Galletas integrales", "category": "Cereales/Integrales" },
+    { "ingredientId": "fresh_cheese", "name": "Queso fresco", "category": "Lácteos" },
+    { "ingredientId": "cabbage", "name": "Repollo", "category": "Verduras" },
+    { "ingredientId": "carrot", "name": "Zanahoria", "category": "Verduras" },
+    { "ingredientId": "berries", "name": "Frutos rojos", "category": "Frutas" },
+    { "ingredientId": "turkey_breast", "name": "Pechuga de pavo", "category": "Proteínas" },
+    { "ingredientId": "brown_rice", "name": "Arroz integral", "category": "Cereales/Integrales" },
+    { "ingredientId": "chickpeas", "name": "Garbanzos", "category": "Proteínas" },
+    { "ingredientId": "avocado", "name": "Aguacate", "category": "Frutas" },
+    { "ingredientId": "egg", "name": "Huevo", "category": "Proteínas" },
+    { "ingredientId": "sardines", "name": "Sardinas", "category": "Proteínas" },
+    { "ingredientId": "plant_milk", "name": "Leche vegetal", "category": "Otros" },
+    { "ingredientId": "whole_pasta", "name": "Pasta integral", "category": "Cereales/Integrales" },
+    { "ingredientId": "homemade_sauce", "name": "Salsa casera", "category": "Otros" },
+    { "ingredientId": "olive_oil", "name": "Aceite de oliva extra virgen", "category": "Otros" },
+    { "ingredientId": "water", "name": "Agua", "category": "Otros" }
+  ]
+}
