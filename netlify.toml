@@ -1,0 +1,9 @@
+[build]
+  command = "npm ci && npx expo export -p web"
+  publish = "dist"
+
+# SPA fallback (React Navigation / rutas)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
